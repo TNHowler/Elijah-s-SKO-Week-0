@@ -37,7 +37,7 @@ function draw() {
   image(elevator, 0, 0, windowWidth, windowHeight);
 
   imageMode(CENTER);
-  image(cheeseburger, width / 2, height / 2.25, width / 10, height / 5);
+  image(cheeseburger, width / 2, height / 2.25, width / 2, height / 3);
 
   imageMode(CORNER);
 
@@ -63,9 +63,9 @@ function draw() {
   fill(0); // Set text color to black
   text(
     "Codewords Creative Coding and Typography",
-    width / 3,
+    width / 2.5,
     height / 10,
-    width / 3, // Specify the width for wrapping the text
+    width / 5, // Specify the width for wrapping the text
     height / 12,  // Specify the height for wrapping the text
   );
 
