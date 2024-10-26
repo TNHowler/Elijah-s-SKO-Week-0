@@ -1,4 +1,4 @@
-///GitHub Copilot assisted in writing this code.
+//GitHub Copilot assisted in writing this code.
 
 var elevator;
 var ellipses = [];
@@ -58,9 +58,9 @@ function draw() {
   // Display text in the middle of the screen
   textAlign(CENTER, CENTER);
   textSize(windowWidth / 50);
-  textFont(InterstateBCFont); // Apply the custom font
+  textFont(InterstateBCFont); 
   noStroke();
-  fill(0); // Set text color to black
+  fill(0); 
   text(
     "Codewords Creative Coding and Typography",
     width / 2.5,
@@ -71,10 +71,10 @@ function draw() {
 
   // Display text in the middle of the screen
   textAlign(CENTER, CENTER);
-  textSize(windowWidth / 75);
-  textFont(InterstateBCFont); // Apply the custom font
+  textSize(windowWidth / 115);
+  textFont(InterstateBCFont); 
   noStroke();
-  fill(0); // Set text color to black
+  fill(0);
   text(
     "Unfortunately week 0 was uneventful... I had not checked my emails in the morning and found out that the class was canceled, but at least I met Kai and Kevin. Before leaving for home I got a triple cheeseburger meal from Macca's. I'm a bit of a fat ass, I know.",
     width / 2.65,
